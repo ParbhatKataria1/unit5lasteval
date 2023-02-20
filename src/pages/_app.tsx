@@ -1,0 +1,14 @@
+import Nav from '@/component/Navbar'
+import '@/styles/globals.css'
+import { ChakraProvider } from '@chakra-ui/react'
+import type { AppProps } from 'next/app'
+import { theme } from './utils/theme'
+
+export default function App({ Component, pageProps }: AppProps) {
+  return (
+    <ChakraProvider theme={theme}>
+      <Nav/>
+  <Component {...pageProps} />
+  </ChakraProvider>
+  )
+}
