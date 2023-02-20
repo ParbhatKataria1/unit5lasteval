@@ -16,7 +16,7 @@ import {
   useColorMode,
   Center,
 } from '@chakra-ui/react';
-import { MoonIcon, SunIcon } from '@chakra-ui/icons';
+import { MoonIcon, SunIcon, MoonIcon } from '@chakra-ui/icons';
 import { CiGrid31 } from 'react-icons/Ci';
 
 
@@ -30,7 +30,7 @@ export default function Nav() {
           <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
             <Box display={'flex'} width='100px' justifyContent={'space-around'}>
                 <Link href='/'>
-            <Box><CiGrid31/>
+            <Box><MoonIcon/>
             </Box>
             </Link>
             <Link href='/people' >
