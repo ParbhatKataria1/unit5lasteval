@@ -16,8 +16,7 @@ import {
   useColorMode,
   Center,
 } from '@chakra-ui/react';
-import { MoonIcon, SunIcon, MoonIcon } from '@chakra-ui/icons';
-import { CiGrid31 } from 'react-icons/Ci';
+import { MoonIcon, SunIcon } from '@chakra-ui/icons';
 
 
 
